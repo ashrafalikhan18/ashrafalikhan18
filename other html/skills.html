@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Skills - Ashraf Ali Khan Patan">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Skills</title>
+    <style>
+        .section-title {
+            text-align: center;
+            margin-top: 5vh;
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        .chart-container {
+            height: 70vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Particles Background -->
+    <div id="particles-js"></div>
+    
+    <!-- Back Button -->
+    <a href="index.html" class="back-btn"><i class="fas fa-arrow-left"></i> Back to Home</a>
+    
+    <!-- Skills Section -->
+    <section id="skills-section">
+        <h2 class="section-title">My Skills</h2>
+        <div class="chart-container">
+            <canvas id="skillsRadarChart"></canvas>
+        </div>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

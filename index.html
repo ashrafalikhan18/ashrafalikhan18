@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ashraf Ali Khan Patan - Portfolio">
+    <title>Ashraf Ali Khan Patan - Portfolio</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills-section">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certifications-section">Certifications</a></li>
+        </ul>
+        <div id="underline"></div>
+        <!-- Social Links -->
+        <div class="social-links">
+          <a href="https://github.com/ashrafalikhan18" target="_blank" aria-label="GitHub" data-tooltip="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/ashraf18001" target="_blank" aria-label="LinkedIn" data-tooltip="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="mailto:ashrafkhan1822001@gmail.com" aria-label="Email" data-tooltip="Email" title="ashrafkhan1822001@gmail.com">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </nav>
+
+    <div id="particles-js"></div>
+    <canvas id="interactiveCanvas"></canvas>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <!-- Add this in the <head> section -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.9.1/lottie.min.js"></script>
+    <script src="script.js"></script>
+<!-- Hero Section -->
+<section id="hero">
+    <div class="profile-pic">
+        <img src="images/ashraf.png" alt="Ashraf Ali Khan Patan Portrait">
+    </div>
+    <h1 class="animated-title" id="typing-text" aria-label="Hi, I Am Ashraf Ali Khan Patan"></h1>
+    <p class="subtitle">Transforming Data into Strategic Decisions 💡</p>
+    <a href="ashraf_resume.pdf" download class="resume-btn">Download Resume</a>
+</section>
+
+
+<!-- About Me Section -->
+<section id="about-me">
+    <h2 class="section-title">Get to Know Me</h2>
+    <div class="about-me-content">
+      <!-- Animation Container -->
+      <!-- <div id="hi-animation"></div> -->
+      <!-- Text Content -->
+      <div class="about-me-text">
+        <div id="hi-animation">
+            <img src="images/ashraf_gif.webp" alt="Hi Animation">
+        </div>
+        <p>
+          From childhood, my curiosity pushed me to explore—be it technology, games, or the hidden logic behind everyday patterns. Over time, this turned into a passion for decoding complexities, uncovering trends, and solving problems. This natural inclination led me to pursue a Master's in Data Science, where I now transform raw data into compelling narratives and intelligent solutions.
+        <p>    
+        </div>
+    </div>
+  </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2 class="section-title">My Education</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <img src="images/study.png" alt="Narayana Logo" class="logo-img">
+                </div>
+                <div class="timeline-content">
+                    <h3>Narayana Jr College</h3>
+                    <p class="timeline-date">2017 - 2019</p>
+                    <p class="timeline-description">MPC (Maths, Physics, Chemistry)</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <img src="images/grad.png" alt="Presidency University Logo" class="logo-img">
+                </div>
+                <div class="timeline-content">
+                    <h3>Presidency University</h3>
+                    <p class="timeline-date">2019 - 2023</p>
+                    <p class="timeline-description">Bachelor's in Computer Science</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <img src="images/grad.png" alt="Data Science Logo" class="logo-img">
+                </div>
+                <div class="timeline-content">
+                    <h3>Fachhochschule Kiel</h3>
+                    <p class="timeline-date">Expected graduation 2026</p>
+                    <p class="timeline-description">Master's in Data Science</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills-section">
+        <h2 class="section-title">My Skills</h2>
+        <div class="chart-container">
+            <canvas id="skillsRadarChart"></canvas>
+        </div>
+
+    <div class="skills-grid">
+
+      <!-- Programming -->
+      <div class="skill-card">
+        <h3 class="skill-title">Programming</h3>
+        <p class="skill-description">Clean, reproducible analysis and end-to-end model building.</p>
+        <div class="skill-tags">
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">SQL</span>
+          <span class="skill-tag">Pandas</span>
+          <span class="skill-tag">NumPy</span>
+        </div>
+      </div>
+
+
+
+      <!-- Database Card -->
+      <div class="skill-card">
+        <h3 class="skill-title">Databases</h3>
+        <p class="skill-description">Proficient in managing and querying relational and NoSQL databases for efficient data storage and retrieval.</p>
+        <div class="skill-tags">
+          <span class="skill-tag">MySQL</span>
+          <span class="skill-tag">PostgreSQL</span>
+          <span class="skill-tag">MongoDB</span>
+          <span class="skill-tag">SQLite</span>
+        </div>
+      </div>
+  
+      <!-- Data Visualization Card -->
+      <div class="skill-card">
+        <h3 class="skill-title">Data Visualization</h3>
+        <p class="skill-description">Experienced in creating interactive and insightful visualizations to communicate data-driven insights.</p>
+        <div class="skill-tags">
+          <span class="skill-tag">Tableau</span>
+          <span class="skill-tag">Power BI</span>
+          <span class="skill-tag">Plotly</span>
+          <span class="skill-tag">Matplotlib</span>
+        </div>
+      </div>
+      <!-- Deep Learning Card -->
+      <div class="skill-card">
+        <h3 class="skill-title">Deep Learning & NLP</h3>
+        <p class="skill-description">Neural networks for sequence, vision, and language tasks.</p>
+        <div class="skill-tags">
+          <span class="skill-tag">TensorFlow</span>
+          <span class="skill-tag">Keras</span>
+          <span class="skill-tag">PyTorch</span>
+          <span class="skill-tag">NLP</span>
+        </div>
+      </div>
+  
+      <!-- Machine Learning Card -->
+      <div class="skill-card">
+        <h3 class="skill-title">Machine Learning</h3>
+        <p class="skill-description">Modeling, evaluation, and deployment for predictive tasks.</p>
+        <div class="skill-tags">
+          <span class="skill-tag">Scikit-Learn</span>
+          <span class="skill-tag">XGBoost</span>
+          <span class="skill-tag">Model Evaluation</span>
+          <span class="skill-tag">Feature Engineering</span>
+        </div>
+      </div>
+      <!-- Tools & Cloud (replaces Data Lifecycle Management) -->
+      <div class="skill-card">
+        <h3 class="skill-title">Tools & Cloud</h3>
+        <p class="skill-description">Modern tooling for experiments, deployment, and scale.</p>
+        <div class="skill-tags">
+          <span class="skill-tag">Git/GitHub</span>
+          <span class="skill-tag">Docker</span>
+          <span class="skill-tag">AWS</span>
+          <span class="skill-tag">GCP</span>
+          <span class="skill-tag">Spark</span>
+          <span class="skill-tag">Databricks</span>
+     </div>
+    </div>
+</div>
+  </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="project-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="ml">Machine Learning</button>
+            <button class="filter-btn" data-filter="nlp">NLP</button>
+            <button class="filter-btn" data-filter="viz">Visualization</button>
+        </div>
+        <div class="project-grid"></div>
+    </section>
+<!-- Certifications Section -->
+<section id="certifications-section">
+  <h2 class="section-title">My Certifications</h2>
+  <div class="certifications-container">
+
+    <!-- AWS -->
+    <div class="certification-item">
+      <img src="images/aws_cer.png" alt="AWS Logo" class="certification-logo" onerror="this.src='images/placeholder.png'">
+      <h3 class="certification-title">AWS Cloud Practitioner Essentials</h3>
+      <p class="certification-description">
+        Core AWS services, security, architecture, and pricing fundamentals.
+      </p>
+    </div>
+
+    <!-- Big Data Hadoop & Spark -->
+    <div class="certification-item">
+      <img src="images/Simplilearn_logo.png" alt="Simplilearn Logo" class="certification-logo" onerror="this.src='images/placeholder.png'">
+      <h3 class="certification-title">Big Data Hadoop & Spark Developer — Simplilearn</h3>
+      <p class="certification-description">
+        HDFS, MapReduce, Spark (RDD/DataFrame), and end-to-end data pipelines.
+      </p>
+    </div>
+
+    <!-- Python for Data Science -->
+    <div class="certification-item">
+      <img src="images/udemy1.png" alt="Udemy Logo" class="certification-logo" onerror="this.src='images/placeholder.png'">
+      <h3 class="certification-title">Python for Data Science — Udemy</h3>
+      <p class="certification-description">
+        Python fundamentals for analysis: pandas, NumPy, visualization, basic ML workflows.
+      </p>
+    </div>
+
+    <!-- Cisco / NASSCOM -->
+    <div class="certification-item">
+      <img src="images/introduction_to_cybersecurity.png" alt="Cisco Logo" class="certification-logo" onerror="this.src='images/placeholder.png'">
+      <h3 class="certification-title">Introduction to Cybersecurity — Cisco / NASSCOM FutureSkills</h3>
+      <p class="certification-description">
+        Security concepts, threat landscape, and data protection basics.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+
+
+<!-- Add this to your footer in index.html -->
+    <footer>
+        <p>&copy; <span id="current-year"></span> Ashraf Ali Khan Patan -  All rights reserved.</p>
+    </footer>
+    
+    <script>
+        // Dynamic Year in Footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+
+
+</html>
