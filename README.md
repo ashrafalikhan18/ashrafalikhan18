@@ -11,4 +11,4 @@ Welcome to my **Data Science Portfolio**! This repository contains my work in th
 - **HTML** for web structure  
 - **CSS** for styling  
 - **JavaScript** for interactive elements  
-- **Data Science Tools** like Python, R, SQL, Tableau, etc. 
+- **Data Science Tools** like Python,SQL, Tableau, etc. 
