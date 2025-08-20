@@ -1,16 +1,14 @@
-## Hi there 👋
+# Ashraf's Data Science Portfolio
 
-<!--
-**ashrafalikhan18/ashrafalikhan18** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Welcome to my **Data Science Portfolio**! This repository contains my work in the field of data science, showcasing projects, skills, and solutions to real-world problems.
 
-Here are some ideas to get you started:
+## Projects & Skills:
+- Data Analysis & Visualization  
+- Machine Learning & Predictive Modeling  
+- Web Development with HTML, CSS, and JavaScript  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Technologies Used:
+- **HTML** for web structure  
+- **CSS** for styling  
+- **JavaScript** for interactive elements  
+- **Data Science Tools** like Python, R, SQL, Tableau, etc. 
